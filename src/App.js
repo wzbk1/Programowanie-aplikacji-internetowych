@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import UserList from "./components/UserList";
 import SearchBar from "./components/SearchBar";
 import UserModal from "./components/UserModal";
+import './App.css';
 
 const App = () => {
   const [users, setUsers] = useState([]);
